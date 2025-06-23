@@ -16,11 +16,11 @@
 - RAGにはAzure OpenAI の Embedding APIでベクトル化した文書を使い、 Retrieverにはlangchain_community.vectorstores.FAISSを利用する。
 ## フォルダ構成イメージ
 app/
-  ├─ nodes/          # 各 LangGraph ノード \n
-  ├─ db/             # SQL 実行ユーティリティ\n
-  ├─ prompts/        # プロンプトテンプレート \n
+  ├─ nodes/          # 各 LangGraph ノード
+  ├─ db/             # SQL 実行ユーティリティ
+  ├─ prompts/        # プロンプトテンプレート 
   ├─ ui/             # Chainlit関連 \n 
-  └─ main.py         # LangGraph + Chainlit 起動 \n
+  └─ main.py         # LangGraph + Chainlit 起動
 ## 注意点
 - コードは実行可能な最小構成。
 - コメントは日本語で簡潔にすること。
