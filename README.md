@@ -9,10 +9,10 @@
 - 自然言語での指示に基づくmatplotlibでのデータ可視化
 ## 3. 環境
 - 開発にはPython3.12を使用する。
-- バックエンドに使用するライブラリ：langgraph, langchain, pandas, matplotlib
-- フロントエンドに使用するライブラリ: chainlit
-- 接続するDBにはSQLiteを採用する
-- 生成AIはAzure Open AIのAPIを経由してChatGPT4O miniを使用することとし、.envにてAPI keyやendpointを指定する形とする。
+- バックエンドに使用する主要なPythonライブラリ：langgraph, langchain, pandas, matplotlib
+- フロントエンドに使用する主要なPythonライブラリ: chainlit
+- 生成AIはAzure Open AIのAPIを経由してChatGPT4O miniを使用する。接続の際は.envでAPI keyやendpointを指定する形とする。
+- 接続するDBにはSQLiteを使用
 - RAGにはAzure OpenAI の Embedding APIでベクトル化した文書を使い、 Retrieverにはlangchain_community.vectorstores.FAISSを利用する。
 ## フォルダ構成イメージ
 app/
